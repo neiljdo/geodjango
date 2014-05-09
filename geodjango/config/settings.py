@@ -51,6 +51,8 @@ class Common(Configuration):
         'south',  # Database migration helpers:
         'crispy_forms',  # Form layouts
         'avatar',  # for user avatars
+
+        'django_extensions',
     )
 
     # Apps specific for this project go here.
