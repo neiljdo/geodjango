@@ -35,3 +35,5 @@ django-avatar==2.0
 
 
 # Your custom requirements go here
+# For a prettier shell
+ipython==2.0.0
