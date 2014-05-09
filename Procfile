@@ -1,0 +1,1 @@
+web: gunicorn --pythonpath="$PWD/geodjango" config.wsgi:application
