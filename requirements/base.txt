@@ -37,3 +37,6 @@ django-avatar==2.0
 # Your custom requirements go here
 # For a prettier shell
 ipython==2.0.0
+
+# For a cleaner nodejs env setup (create nodejs inside venv)
+nodeenv==0.8.1
