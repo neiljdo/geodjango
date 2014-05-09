@@ -39,10 +39,13 @@ class Common(Configuration):
         'django.contrib.staticfiles',
 
         # Useful template tags:
-        # 'django.contrib.humanize',
+        'django.contrib.humanize',
 
         # Admin
         'django.contrib.admin',
+
+        # GeoDjango
+        'django.contrib.gis',
     )
     THIRD_PARTY_APPS = (
         'south',  # Database migration helpers:
@@ -54,6 +57,8 @@ class Common(Configuration):
     LOCAL_APPS = (
         'users',  # custom users app
         # Your stuff: custom apps go here
+
+        'world',
     )
 
     # See: https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
